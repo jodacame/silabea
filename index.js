@@ -614,7 +614,7 @@ function diptongoTriptongo() {
     }
 
     // Diptongo Homogeneo (VD - VD) : ((a|e|o)(i|u))
-    expresion = /((a|e|o)(i|u))/g;
+    expresion = /((i|u)(i|u))/g;
     if (silaba.silabas[i].silaba.match(expresion)) {
       silaba.diptongo.push({
         tipo: 'Diptongo Homogéneos',
